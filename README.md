@@ -1,4 +1,4 @@
-# Preprocessors For Js In Rails
+# asset-preprocessors-in-rails
 
 ## Outline
 
