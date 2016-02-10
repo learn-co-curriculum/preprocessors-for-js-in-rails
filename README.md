@@ -11,7 +11,7 @@ Because the asset pipeline parses all of our asset files, we are able to write C
 ## Coffeescript
 If you have written any JavaScript, you know it has many quirks. For example, the difference between `==` vs `===` when testing equality or how to use [Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain). Coffeescript takes all of these things that make using JavaScript hard and abstracts them away. What we are left with is a very Ruby like syntax. Take the following pulled from the Coffeescript documentation.
 
-```coffeescript
+```ruby
 launch() if ignition is on
 
 volume = 10 if band isnt SpinalTap
