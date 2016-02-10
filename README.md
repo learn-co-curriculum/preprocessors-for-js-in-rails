@@ -6,12 +6,12 @@ The Asset Pipeline is very powerful. We have seen this with just asset concatent
 ## Preprocessors
 CSS and JavaScript have been around awhile. They do a good job styling our pages and creating cool client-side behavior. They aren't always the easiest to work with though. There has been a lot of improvements to these langauges but because those upgrades require people to upgrade their browsers, we can't always use them. Wouldn't it be great if we could write CSS and JS the way we wanted and have a program turn it into the correct syntax? This is why we have preprocessors.
 
-Because the asset pipeline parses all of our asset files, we are able to write CSS and JS in a langauge that isn't exactly CSS and JS. By using file extensions, asset pipeline can recognize these files as not normal CSS and JS and run it through a preprocessor which creates CSS and JS. If the Asset Pipeline sees ```main.js.coffee``` it knows this is a Coffeescript file and will run it through the Coffeescript preprocessor.
+Because the asset pipeline parses all of our asset files, we are able to write CSS and JS in a langauge that isn't exactly CSS and JS. By using file extensions, asset pipeline can recognize these files as not normal CSS and JS and run it through a preprocessor which creates CSS and JS. If the Asset Pipeline sees `main.js.coffee` it knows this is a Coffeescript file and will run it through the Coffeescript preprocessor.
 
 ## Coffeescript
 If you have written any JavaScript, you know it has many quirks. For example, the difference between `==` vs `===` when testing equality or how to use [Inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain). Coffeescript takes all of these things that make using JavaScript hard and abstracts them away. What we are left with is a very Ruby like syntax. Take the following pulled from the Coffeescript documentation.
 
-```ruby
+```coffeescript
 launch() if ignition is on
 
 volume = 10 if band isnt SpinalTap
