@@ -75,7 +75,7 @@ Here is a simple example of nesting which SASS provides.
 }
 ```
 
-The code above will turn into the following once ran through the preprocessor.
+The code above will turn into the following once run through the preprocessor.
 
 ```css
 .error a {
@@ -93,3 +93,5 @@ Notice how we avoided having to repeat `.error`. In SASS, if we need to change `
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails' title='asset-preprocessors-in-rails'>asset-preprocessors-in-rails</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails'>Asset Preprocessors In Rails</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails'>Asset Preprocessors In Rails</a> on Learn.co and start learning to code for free.</p>
