@@ -1,7 +1,7 @@
 # Asset Preprocessors in Rails
 
 ## Outline
-The Asset Pipeline is very powerful. We have seen this with just asset concatentation alone. Imagine having to manually combine dozens of JS and CSS files and update the layouts every time we want to make a change and deploy our application. The Asset Pipeline does this for us. On top of that, it also allows us to use preprocessors like [Coffeescript](http://coffeescript.org/), [SASS](http://sass-lang.com/), and ERB. But what is a preprocessor?
+The Asset Pipeline is very powerful. We have seen this with just asset concatenation alone. Imagine having to manually combine dozens of JS and CSS files and update the layouts every time we want to make a change and deploy our application. The Asset Pipeline does this for us. On top of that, it also allows us to use preprocessors like [Coffeescript](http://coffeescript.org/), [SASS](http://sass-lang.com/), and ERB. But what is a preprocessor?
 
 ## Preprocessors
 CSS and JavaScript have been around awhile. They do a good job styling our pages and creating cool client-side behavior. They aren't always the easiest to work with, though. There have been a lot of improvements to these languages, but because those upgrades require people to upgrade their browsers, we can't always use them. Wouldn't it be great if we could write CSS and JS the way we wanted and have a program turn it into the correct syntax? This is why we have preprocessors.
@@ -91,3 +91,5 @@ The code above will turn into the following once run through the preprocessor:
 Notice how we avoided having to repeat `.error`. In SASS, if we need to change `.error` to `.error-text`, we only have to change it in one place. In big applications, that can save us from making a lot of mistakes.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails' title='Asset Preprocessors in Rails'>Asset Preprocessors in Rails</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails'>Asset Preprocessors In Rails</a> on Learn.co and start learning to code for free.</p>
