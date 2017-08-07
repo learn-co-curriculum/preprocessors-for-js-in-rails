@@ -91,5 +91,3 @@ The code above will turn into the following once run through the preprocessor:
 Notice how we avoided having to repeat `.error`. In SASS, if we need to change `.error` to `.error-text`, we only have to change it in one place. In big applications, that can save us from making a lot of mistakes.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails' title='Asset Preprocessors in Rails'>Asset Preprocessors in Rails</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/asset-preprocessors-in-rails'>Asset Preprocessors In Rails</a> on Learn.co and start learning to code for free.</p>
